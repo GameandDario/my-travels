@@ -15,7 +15,7 @@ class App extends Component {
         <Travel
           destination="Alpilles Mountains"
           country="France"
-          photo="https://alpilles.sejours-de-charme.fr/assets/images/van-gogh-olivenbume-mit-les-alpilles-im-hintergrund-1400x1104.png"
+          photo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Van_Gogh_The_Olive_Trees..jpg/240px-Van_Gogh_The_Olive_Trees..jpg"
           distance="80 km from Marseille"
         />
         <Travel
