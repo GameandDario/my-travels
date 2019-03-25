@@ -3,7 +3,7 @@ import React from "react";
 const Travel = ({ destination, country, photo, distance }) => (
   <figure>
       <h2>{destination}</h2>
-    <img src={photo} alt={destination} />
+    <img src={photo} alt={destination} width = "80%"/>
     <figcaption>
       <blockquote>{destination} {country}</blockquote>
       <cite>{distance}</cite>
