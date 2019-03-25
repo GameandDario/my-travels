@@ -1,11 +1,13 @@
 import React from "react";
 
-const Travel = ({ destination, country, photo, distance }) => (
+const Travel = ({ destination, country, photo, credit, distance }) => (
   <figure>
-      <h2>{destination}</h2>
-    <img src={photo} alt={destination} width = "80%"/>
+    <h2>{destination}</h2>
+    <img src={photo} alt={destination} width="80%" />
     <figcaption>
-      <blockquote>{destination} {country}</blockquote>
+      <blockquote><em>{destination}</em> {country}</blockquote>
+      <p><small>{credit}</small></p>
+{/* ajouter lien vers info sur image */}
       <cite>{distance}</cite>
     </figcaption>
   </figure>
