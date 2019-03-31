@@ -7,7 +7,6 @@ const Travel = ({ destination, country, photo, credit, distance }) => (
     <figcaption>
       <blockquote><em>{destination}</em> {country}</blockquote>
       <p><small>{credit}</small></p>
-{/* ajouter lien vers info sur image */}
       <cite>{distance}</cite>
     </figcaption>
   </figure>

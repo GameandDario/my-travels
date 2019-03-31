@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import Travel from "./Travel";
+import Travels from "./Travels"
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
           credit="John Ford, 'The Searchers', 1956"
           distance=" 8500 km from Marseille"
         />
+        <Travels/>
       </div>
     );
   }
